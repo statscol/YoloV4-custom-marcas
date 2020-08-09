@@ -8,6 +8,7 @@ import glob
 SAVE_PATH="E:/videos/"
 
 
+
 data=pd.DataFrame({'desc':['Ame-Nac','Mill-Cal','Once-Med','Tol-Env','SFE-Tol','Cuc-Hui','Jun-Equi','Umag-Jag','Pas-Buc','Per-Chi','Cal-Per','Ame-Med','Nac-Per','Cuc-Jun','SFE-Mill','Umag-Pas','Cal-Nac_final'],'link':['https://www.youtube.com/watch?v=KXJvGQo2dvU','https://www.youtube.com/watch?v=KVlE0QRfPUg','https://www.youtube.com/watch?v=6a3pC37L0Iw','https://www.youtube.com/watch?v=4_OyO8k8eiU','https://www.youtube.com/watch?v=15OIMePro3E','https://www.youtube.com/watch?v=IRRVQLWQo7s','https://www.youtube.com/watch?v=3lU7UkI8Qps','https://www.youtube.com/watch?v=ZNVkpLUvb40','https://www.youtube.com/watch?v=jI6L4vtOyqc','https://www.youtube.com/watch?v=8kDoRwURAXM','https://www.youtube.com/watch?v=Ury4lSJHmPU','https://www.youtube.com/watch?v=8WGs2s7xxMc','https://www.youtube.com/watch?v=PfoUiPOjgnc','https://www.youtube.com/watch?v=4H1LwFcWLqM','https://www.youtube.com/watch?v=sXOWWzSMeso','https://www.youtube.com/watch?v=V20OTe5u4BI','https://www.youtube.com/watch?v=Nt_XOcpSM18']})
 
 
