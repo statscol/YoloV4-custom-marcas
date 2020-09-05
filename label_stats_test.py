@@ -8,12 +8,12 @@ import collections
 import shutil as sht
 
 #DEST_PATH="D:/Jhon Lopez/Tesis Icesi/img/"
-DEST_PATH="E:/Gdrive/img/"
+DEST_PATH="E:/test/"
 
 
 
 files = glob.glob(os.path.join(DEST_PATH, '*.txt'))
-class_aux=open(DEST_PATH+"classes.txt","r")
+class_aux=open("E:/Gdrive/"+"classes.txt","r")
 classes=[line.strip() for line in class_aux]
 class_aux.close()
 
@@ -29,7 +29,7 @@ for file in files:
             print(f"Warning: {file} does not contain any valid data")
       
 ##show counts                
-
+print(len(marcas))
 print(collections.Counter(marcas))
 
 

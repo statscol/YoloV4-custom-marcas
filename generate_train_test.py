@@ -6,7 +6,7 @@ import numpy as np
 
 PATH_IMG="E:/Gdrive/img_end/"
 
-PATH_TRAIN=PATH_IMG+"train/"
+PATH_TRAIN=PATH_IMG+"obj/"
 PATH_TEST=PATH_IMG+"test/"
 
 def create_paths(PATH_AUX):
@@ -21,6 +21,7 @@ def create_paths(PATH_AUX):
 create_paths(PATH_TRAIN)
 create_paths(PATH_TEST)
 files=os.listdir(PATH_IMG)
+random.shuffle(files) 
 
 countf=0
 for filename in files:
